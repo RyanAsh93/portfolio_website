@@ -1,6 +1,13 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core';
-import { LaptopMac } from '@material-ui/icons';
+import { 
+    withStyles,
+    Button,
+ } from '@material-ui/core';
+import { 
+    LaptopMac,
+    GetApp,
+ } from '@material-ui/icons';
+import MyPDF from './resume.pdf';
 
 const styles = theme => ({
     homeSection: {
@@ -61,6 +68,20 @@ const styles = theme => ({
           color: '#696969',
           alignItems: 'center',
           fontSize: '200px',
+      },
+      buttonDownload: {
+        // position: 'absolute',
+        //   left: '0%',
+        //   right: '0%',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        //   top: '-405%',
+          bottom: '-180px',
+          zIndex: '10',
+          padding: '15px',
+          color: '#696969',
+          alignItems: 'center',
+        //   fontSize: '200px',
       }
 })
 
@@ -76,6 +97,15 @@ class Home extends React.Component {
                 <LaptopMac className={classes.homeIcon} />
                 <h1 className={classes.flexCaption}>Hi, I'm Ryan</h1>
                 <h2 className={classes.flexCaptionPara}>Full Stack Engineer - Web Developer - Web Designer</h2>
+                {/* <a href={MyPDF} download="resume.pdf"></a> */}
+                <div>
+                <Button
+                    variant="outlined"
+                    color="#FFFAF0"
+                    className={classes.buttonDownload}
+                    startIcon={<GetApp />}
+                    a href={MyPDF} download="resume.pdf">Download Resume</Button>
+                    </div>
             </div>
         )
     }
