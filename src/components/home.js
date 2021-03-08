@@ -1,10 +1,11 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core';
+import { LaptopMac } from '@material-ui/icons';
 
 const styles = theme => ({
     homeSection: {
         textAlign: 'center',
-        backgroundColor: 'gray',
+        backgroundColor: '#FFFAF0',
         height: '850px',
         width: '100%',
         // marginTop: '80px',
@@ -19,15 +20,47 @@ const styles = theme => ({
         position: 'absolute',
           left: '0%',
           right: '0%',
-          top: '50%',
+          top: '45%',
           bottom: '10px',
           zIndex: '10',
           paddingTop: '20px',
           paddingBottom: '20px',
-          color: 'white',
+          color: '#696969',
           fontFamily: 'Oswald',
           textAlign: 'center',
-          textTransform: 'uppercase',
+          fontSize: '60px',
+        //   textTransform: 'uppercase',
+      },
+      
+      flexCaptionPara: {
+        position: 'absolute',
+          left: '0%',
+          right: '0%',
+          top: '60%',
+          bottom: '10px',
+          zIndex: '10',
+          paddingTop: '20px',
+          paddingBottom: '20px',
+          color: '#696969',
+          fontFamily: 'Oswald',
+          textAlign: 'center',
+        //   textTransform: 'uppercase',
+      },
+
+      homeIcon: {
+        // position: 'absolute',
+        //   left: '0%',
+        //   right: '0%',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          top: '50%',
+          bottom: '10px',
+          zIndex: '10',
+          paddingTop: '200px',
+          paddingBottom: '20px',
+          color: '#696969',
+          alignItems: 'center',
+          fontSize: '200px',
       }
 })
 
@@ -40,7 +73,9 @@ class Home extends React.Component {
         
         return (
             <div id="home"  className={classes.homeSection}>
-                <h1 className={classes.flexCaption}>Home page</h1>
+                <LaptopMac className={classes.homeIcon} />
+                <h1 className={classes.flexCaption}>Hi, I'm Ryan</h1>
+                <h2 className={classes.flexCaptionPara}>Full Stack Engineer - Web Developer - Web Designer</h2>
             </div>
         )
     }

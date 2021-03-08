@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core'
 const styles = theme => ({
     aboutSection: {
         textAlign: 'center',
-        backgroundColor: 'black',
+        backgroundColor: '#2c3e50',
         height: '850px',
         width: '100%',
         // marginTop: '80px',

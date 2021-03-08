@@ -8,6 +8,7 @@ import {
 withStyles,
 }
 from '@material-ui/core'
+import { FontDownload } from '@material-ui/icons';
 // import Testimonial from './testimonial'
 
 const styles = theme => ({
@@ -16,11 +17,11 @@ const styles = theme => ({
         zIndex: '2000',
         top: '0',
         width: '100%',
-        height: '80px',
+        height: '90px',
         margin: '0' ,
         padding: '0',
         listStyle: 'none',
-        backgroundColor: 'white',
+        backgroundColor: '#2c3e50',
         borderBottom: '1px solid #ccc',
         borderTop: '1px solid #ccc',
       },
@@ -36,23 +37,46 @@ const styles = theme => ({
             float: 'right',
           },
           navLink: {
-            color: '#222222',
+            color: '#FFFAF0',
             textDecoration: 'none',
             listStyle: 'none',
-            fontWeight: '300',
-            fontSize: '14px',
+            fontWeight: '700',
+            fontSize: '18px',
             letterSpacing: '1px',
-            fontFamily: 'Oswald',
+            fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
             '&:hover': {
-                color: '#003058',
+                color: '#FAF0E6',
               },
-      },
-      
-      logoStyle: {
-        position: 'fixed',
-        height: '120px',
-        width: '140px',
-      },
+        },
+        logoStyle: {
+          position: 'fixed',
+          color: '#FFFAF0',
+          margin: '0 200px',
+          marginTop: '25px',
+          cursor: 'pointer',
+              textDecoration: 'none',
+              listStyle: 'none',
+              fontWeight: '700',
+              fontSize: '30px',
+              // letterSpacing: '1px',
+              fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
+              '&:hover': {
+                  color: '#FAF0E6',
+                },
+          },
+          logoIconStyle: {
+            position: 'fixed',
+            color: '#FFFAF0',
+            margin: '0 425px',
+            marginTop: '5px',
+            fontSize: '80px',
+            cursor: 'pointer',
+            textDecoration: 'none',
+            listStyle: 'none',
+            '&:hover': {
+                color: '#FAF0E6	',
+              },
+            },
 });
 
 class Navbar extends React.Component {
@@ -62,7 +86,8 @@ class Navbar extends React.Component {
     return (
       <div>
         <ul className={classes.nav}>
-        {/* <img className='logoStyle' src={require('../images/logo.png')} />  */}
+        <li><a href="#home" className={classes.logoStyle}>Ryan Ashworth</a></li>
+          <a href="#home"><FontDownload className={classes.logoIconStyle} /></a> 
           {/* <li className={classes.navlist}><a href="#contact" className={classes.navList}>CONTACT</a></li> */}
           {/* <li className='navlist'><a href="#news" className="navLink">NEWS</a></li> */}
           <li className={classes.navlist}><a href="#advisors" className={classes.navLink}>ADVISORS</a></li>
