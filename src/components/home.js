@@ -33,10 +33,10 @@ const styles = theme => ({
           paddingTop: '20px',
           paddingBottom: '20px',
           color: '#696969',
-          fontFamily: 'Oswald',
           textAlign: 'center',
           fontSize: '60px',
-        //   textTransform: 'uppercase',
+          fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
+          fontWeight: '700',
       },
       
       flexCaptionPara: {
@@ -49,9 +49,9 @@ const styles = theme => ({
           paddingTop: '20px',
           paddingBottom: '20px',
           color: '#696969',
-          fontFamily: 'Oswald',
           textAlign: 'center',
-        //   textTransform: 'uppercase',
+          fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
+          fontWeight: '700',
       },
 
       homeIcon: {
@@ -71,17 +71,15 @@ const styles = theme => ({
       },
       buttonDownload: {
         // position: 'absolute',
-        //   left: '0%',
-        //   right: '0%',
           marginLeft: 'auto',
           marginRight: 'auto',
-        //   top: '-405%',
           bottom: '-180px',
           zIndex: '10',
           padding: '15px',
           color: '#696969',
           alignItems: 'center',
-        //   fontSize: '200px',
+          fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
+          fontWeight: '700',
       }
 })
 
@@ -97,7 +95,6 @@ class Home extends React.Component {
                 <LaptopMac className={classes.homeIcon} />
                 <h1 className={classes.flexCaption}>Hi, I'm Ryan</h1>
                 <h2 className={classes.flexCaptionPara}>Full Stack Engineer - Web Developer - Web Designer</h2>
-                {/* <a href={MyPDF} download="resume.pdf"></a> */}
                 <div>
                 <Button
                     variant="outlined"
