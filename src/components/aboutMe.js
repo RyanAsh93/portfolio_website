@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core'
 import { 
-    Person,
+    PersonOutlineOutlined,
  } from '@material-ui/icons';
 
 const styles = theme => ({
@@ -64,7 +64,7 @@ class AboutMe extends React.Component {
         return (
             <div id="aboutMe"  className={classes.aboutSection}>
                 <h1 className={classes.aboutHeader}>About Me</h1>
-                <Person className={classes.aboutIcon} />
+                <PersonOutlineOutlined className={classes.aboutIcon} />
                 <p className={classes.aboutPara}>I used to be a Turbo Technicain/Machinist until I had the opportunity to fullfill my goals of becoming a software engineer.
                 I was able to attend, and graduate from DevPoint Labs through the University of Utah. An 11 Week bootcamp course covering various front end to back end frameworks,
                  along with supporting tools. Quick learning, and a strong network of senior engineers which fed my desire to excel in this space. 
