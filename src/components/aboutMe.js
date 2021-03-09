@@ -62,7 +62,7 @@ class AboutMe extends React.Component {
             <div id="aboutMe"  className={classes.aboutSection}>
                 <h1 className={classes.aboutHeader}>About Me</h1>
                 <PersonOutlineOutlined className={classes.aboutIcon} />
-                <p className={classes.aboutPara}>I used to be a Turbo Technicain/Machinist until I had the opportunity to fullfill my dreams of becoming a software engineer.
+                <p className={classes.aboutPara}>I used to be a Turbo Technicain/Machinist until I had the opportunity to persue my dreams of becoming a software engineer.
                 I was able to attend, and graduate from DevPoint Labs through the University of Utah. An 11 Week bootcamp course covering various front end to back end frameworks,
                  along with supporting tools. Quick learning, and a strong network of senior engineers which fed my desire to excel in this space. 
                  I'm seeking a challenging, and growing opportunity in the software engineering world.</p>

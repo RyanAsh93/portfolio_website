@@ -3,7 +3,10 @@ import {
 withStyles,
 }
 from '@material-ui/core'
-import { FontDownload } from '@material-ui/icons';
+import { 
+  FontDownload,
+  Extension,
+ } from '@material-ui/icons';
 
 const styles = theme => ({
     nav: {
@@ -16,8 +19,8 @@ const styles = theme => ({
         padding: '0',
         listStyle: 'none',
         backgroundColor: '#2c3e50',
-        borderBottom: '1px solid #ccc',
-        borderTop: '1px solid #ccc',
+        borderBottom: '1px solid #FFFAF0',
+        borderTop: '1px solid #FFFAF0',
       },
       
       navlist: {
@@ -35,7 +38,7 @@ const styles = theme => ({
             textDecoration: 'none',
             listStyle: 'none',
             fontWeight: '700',
-            fontSize: '18px',
+            fontSize: '22px',
             letterSpacing: '1px',
             fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
             '&:hover': {
@@ -61,8 +64,8 @@ const styles = theme => ({
             position: 'fixed',
             color: '#FFFAF0',
             margin: '0 455px',
-            marginTop: '5px',
-            fontSize: '80px',
+            marginTop: '13px',
+            fontSize: '65px',
             cursor: 'pointer',
             textDecoration: 'none',
             listStyle: 'none',
@@ -80,7 +83,7 @@ class Navbar extends React.Component {
       <div>
         <ul className={classes.nav}>
         <li><a href="#home" className={classes.logoStyle}>Ryan Ashworth</a></li>
-          <a href="#home"><FontDownload className={classes.logoIconStyle} /></a> 
+          <a href="#home"><Extension className={classes.logoIconStyle} /></a> 
           {/* <li className={classes.navlist}><a href="#contact" className={classes.navList}>CONTACT</a></li> */}
           {/* <li className='navlist'><a href="#news" className="navLink">NEWS</a></li> */}
           {/* <li className={classes.navlist}><a href="#advisors" className={classes.navLink}>ADVISORS</a></li> */}

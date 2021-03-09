@@ -69,25 +69,25 @@ const styles = theme => ({
             color: '#2c3e50',
           },
       },
-    //   root: {
-    //     maxWidth: 345,
-    //   },
+      root: {
+          backgroundColor: '#F8F8FF',
+      },
       media: {
         height: 140,
       },
       btnStyle: {
-          color: '#2c3e50',
-          border: '1px solid #2c3e50'
+          color: '#696969',
+          border: '1px solid #696969'
       },
       cardHeader: {
         fontSize: '22px',
-        color: '#2c3e50',
+        color: '#696969',
         fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
         fontWeight: '800',
       },
       cardPara: {
         fontSize: '12px',
-        color: '#2c3e50',
+        color: '#696969',
         fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
         fontWeight: '700',
       }

@@ -9,6 +9,8 @@ import {
     GitHub,
     Email,
     CloudDownload,
+    PhoneOutlined,
+    Room,
  } from '@material-ui/icons';
 import MyPDF from './resume.pdf';
 
@@ -50,6 +52,16 @@ const styles = theme => ({
             color: '#FAF0E6',
           },
     },
+    personalIcon: {
+        color: '#FFFAF0',
+        fontSize: '30px',
+    },
+    personalFont: {
+        color: '#FFFAF0',
+        fontSize: '30px',
+        fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
+        fontWeight: '700',
+    }
     })
 
 class Contact extends React.Component {
@@ -84,6 +96,8 @@ class Contact extends React.Component {
                 </Grid>
                 </Tooltip>
                 </Grid>
+                <h1 className={classes.personalFont}><PhoneOutlined className={classes.personalIcon} />(435)830-6191</h1>
+                <h1 className={classes.personalFont}><Room className={classes.personalIcon} />Tooele, Utah 84074</h1>
             </div>
         )
     }
