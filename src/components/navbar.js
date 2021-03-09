@@ -9,7 +9,6 @@ withStyles,
 }
 from '@material-ui/core'
 import { FontDownload } from '@material-ui/icons';
-// import Testimonial from './testimonial'
 
 const styles = theme => ({
     nav: {

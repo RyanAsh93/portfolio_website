@@ -16,7 +16,7 @@ const styles = theme => ({
     contactSection: {
         textAlign: 'center',
         backgroundColor: '#2c3e50',
-        height: '550px',
+        height: '450px',
         width: '100%',
         paddingTop: '0',
         display: 'block',
@@ -63,26 +63,26 @@ class Contact extends React.Component {
                     justify="center"
                     alignItems="center"
                 >
-             <Grid item xs={1}>
              <Tooltip title="LinkedIn" placement="top">
+             <Grid item xs={1}>
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ryansashworth/"><LinkedIn className={classes.contactIcons}/></a>
-                </Tooltip>
                 </Grid>
-             <Grid item xs={1}>
+                </Tooltip>
              <Tooltip title="GitHub" placement="top">
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/RyanAsh93"><GitHub className={classes.contactIcons}/></a>
-          </Tooltip>
-                </Grid>
              <Grid item xs={1}>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/RyanAsh93"><GitHub className={classes.contactIcons}/></a>
+                </Grid>
+          </Tooltip>
              <Tooltip title="Email" placement="top">
+             <Grid item xs={1}>
                 <a href="mailto:ryanashworth93@yahoo.com"><Email className={classes.contactIcons}/></a>
-                </Tooltip>
                 </Grid>
-                <Grid item xs={1}>
+                </Tooltip>
              <Tooltip title="Download Resume" placement="top">
+                <Grid item xs={1}>
                 <a href={MyPDF} download="resume.pdf"><CloudDownload className={classes.contactIcons}/></a>
-                </Tooltip>
                 </Grid>
+                </Tooltip>
                 </Grid>
             </div>
         )

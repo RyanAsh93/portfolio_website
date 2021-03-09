@@ -81,7 +81,7 @@ class Projects extends React.Component {
           Building a landing page for a local insurance company.
           </Typography>
           <Typography>
-          <a className={classes.panelLink} href="https://lakepointinsurance.mybluemix.net"> Click Here For Link</a>
+          <a target="_blank" rel="noopener noreferrer" className={classes.panelLink} href="https://lakepointinsurance.mybluemix.net"> Click Here For Link</a>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -92,7 +92,7 @@ class Projects extends React.Component {
         <ExpansionPanelDetails>
           <Typography>
           Built an app using an API to filter, and display students infomation.
-          <a className={classes.panelLink} href="https://hatchwaysassessment.mybluemix.net"> Click Here For Link</a>
+          <a target="_blank" rel="noopener noreferrer" className={classes.panelLink} href="https://hatchwaysassessment.mybluemix.net"> Click Here For Link</a>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -103,7 +103,7 @@ class Projects extends React.Component {
         <ExpansionPanelDetails >
           <Typography>
           I worked on the Car Profile page, Edit Vehicle Form, and landing page.
-          <a className={classes.panelLink} href="https://digital--glovebox.herokuapp.com"> Click Here For Link</a>
+          <a target="_blank" rel="noopener noreferrer" className={classes.panelLink} href="https://digital--glovebox.herokuapp.com"> Click Here For Link</a>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -114,7 +114,7 @@ class Projects extends React.Component {
         <ExpansionPanelDetails>
           <Typography>
           Built an app where you can add, delete, and cross off items for your shopping list.
-          <a className={classes.panelLink} href="https://pocket-shopping-list.herokuapp.com"> Click Here For Link</a>
+          <a target="_blank" rel="noopener noreferrer" className={classes.panelLink} href="https://pocket-shopping-list.herokuapp.com"> Click Here For Link</a>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -125,7 +125,7 @@ class Projects extends React.Component {
         <ExpansionPanelDetails>
           <Typography>
           Personal project with my brother, Started as a template but have been adding and removing multiple features.
-          <a className={classes.panelLink} href="https://traise-dev.mybluemix.net"> Click Here For Link</a>
+          <a target="_blank" rel="noopener noreferrer" className={classes.panelLink} href="https://traise-dev.mybluemix.net"> Click Here For Link</a>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
