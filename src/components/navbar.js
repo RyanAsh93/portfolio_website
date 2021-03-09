@@ -90,10 +90,10 @@ class Navbar extends React.Component {
           <a href="#home"><FontDownload className={classes.logoIconStyle} /></a> 
           {/* <li className={classes.navlist}><a href="#contact" className={classes.navList}>CONTACT</a></li> */}
           {/* <li className='navlist'><a href="#news" className="navLink">NEWS</a></li> */}
-          <li className={classes.navlist}><a href="#advisors" className={classes.navLink}>ADVISORS</a></li>
-          <li className={classes.navlist}><a href="#whyUs" className={classes.navLink}>WHY US</a></li>
+          {/* <li className={classes.navlist}><a href="#advisors" className={classes.navLink}>ADVISORS</a></li> */}
+          <li className={classes.navlist}><a href="#contact" className={classes.navLink}>CONTACT</a></li>
           {/* <li className='navlist'><a href="#testimonial" className="navLink">TESTIMONIALS</a></li> */}
-          <li className={classes.navlist}><a href="#projects" className={classes.navLink}>PROJECTS</a></li>
+          <li className={classes.navlist}><a href="#projects" className={classes.navLink}>PORTFOLIO</a></li>
           <li className={classes.navlist}><a href="#aboutMe" className={classes.navLink}>ABOUT ME</a></li>
           <li className={classes.navlist}><a href="#home" className={classes.navLink}>HOME</a></li>
         </ul>

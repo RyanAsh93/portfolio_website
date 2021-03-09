@@ -10,7 +10,6 @@ const styles = theme => ({
         backgroundColor: '#2c3e50',
         height: '550px',
         width: '100%',
-        // marginTop: '80px',
         paddingTop: '0',
         display: 'block',
         marginBottom: '-100px',
@@ -19,14 +18,12 @@ const styles = theme => ({
     },
 
     aboutHeader: {
-        // position: 'absolute',
           left: '0%',
           right: '0%',
           top: '45%',
           bottom: '10px',
           zIndex: '10',
           paddingTop: '20px',
-        //   paddingBottom: '10px',
           color: '#FFFAF0',
           textAlign: 'center',
           fontSize: '60px',
@@ -35,7 +32,6 @@ const styles = theme => ({
       },
 
       aboutPara: {
-        // position: 'absolute',
           left: '0%',
           right: '0%',
           top: '60%',

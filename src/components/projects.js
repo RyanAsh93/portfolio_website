@@ -17,7 +17,6 @@ const styles = theme => ({
         backgroundColor: '#FFFAF0',
         height: '650px',
         width: '100%',
-        // marginTop: '80px',
         paddingTop: '0',
         display: 'block',
         marginBottom: '-100px',
@@ -26,14 +25,12 @@ const styles = theme => ({
     },
     
     projectHeader: {
-        // position: 'absolute',
         left: '0%',
         right: '0%',
         top: '45%',
         bottom: '10px',
         zIndex: '10',
         paddingTop: '20px',
-        //   paddingBottom: '10px',
         color: '#696969',
         textAlign: 'center',
         fontSize: '60px',
@@ -54,10 +51,6 @@ const styles = theme => ({
         backgroundColor: '#FFFAF0',
         color: '#696969',
         textDecoration: 'inherit',
-        // '&:hover': {
-        //     backgroundColor: '#696969',
-        //     color: '#FFFAF0',
-        //   },
       },
       panelLink: {
         textDecoration: 'inherit',
@@ -66,10 +59,6 @@ const styles = theme => ({
             color: '#2c3e50',
           },
       }
-    //   panelStyle:hover {
-    //     background-color: #003058;
-    //     color: #fff;
-    //   }
 })
 
 

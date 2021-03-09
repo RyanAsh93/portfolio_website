@@ -15,7 +15,6 @@ const styles = theme => ({
         backgroundColor: '#FFFAF0',
         height: '850px',
         width: '100%',
-        // marginTop: '80px',
         paddingTop: '0',
         display: 'block',
         marginBottom: '-100px',
@@ -55,9 +54,6 @@ const styles = theme => ({
       },
 
       homeIcon: {
-        // position: 'absolute',
-        //   left: '0%',
-        //   right: '0%',
           marginLeft: 'auto',
           marginRight: 'auto',
           top: '50%',
@@ -70,7 +66,6 @@ const styles = theme => ({
           fontSize: '200px',
       },
       buttonDownload: {
-        // position: 'absolute',
           marginLeft: 'auto',
           marginRight: 'auto',
           bottom: '-180px',

@@ -2,12 +2,15 @@ import React from 'react';
 import { 
     withStyles,
     Grid,
+    Tooltip,
  } from '@material-ui/core'
 import { 
     LinkedIn,
     GitHub,
     Email,
+    CloudDownload,
  } from '@material-ui/icons';
+import MyPDF from './resume.pdf';
 
 const styles = theme => ({
     contactSection: {
@@ -15,7 +18,6 @@ const styles = theme => ({
         backgroundColor: '#2c3e50',
         height: '550px',
         width: '100%',
-        // marginTop: '80px',
         paddingTop: '0',
         display: 'block',
         marginBottom: '-100px',
@@ -24,14 +26,12 @@ const styles = theme => ({
     },
 
     contactHeader: {
-        // position: 'absolute',
           left: '0%',
           right: '0%',
           top: '45%',
           bottom: '10px',
           zIndex: '10',
           paddingTop: '20px',
-        //   paddingBottom: '10px',
           color: '#FFFAF0',
           textAlign: 'center',
           fontSize: '60px',
@@ -40,7 +40,6 @@ const styles = theme => ({
       },
 
     contactIcons: {
-        // justifyContent: 'space-between',
         color: '#FFFAF0',
         fontSize: '80px',
         padding: '8px',
@@ -57,7 +56,7 @@ class Contact extends React.Component {
     render() {
         const { classes } = this.props;
         return (
-            <div id="aboutMe"  className={classes.contactSection}>
+            <div id="contact"  className={classes.contactSection}>
                 <h1 className={classes.contactHeader}>Links & Contacts</h1>
                 <Grid container
                     direction="row"
@@ -65,20 +64,29 @@ class Contact extends React.Component {
                     alignItems="center"
                 >
              <Grid item xs={1}>
-          <a href="https://www.linkedin.com/in/ryansashworth/"><LinkedIn className={classes.contactIcons}/></a>
+             <Tooltip title="LinkedIn" placement="top">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ryansashworth/"><LinkedIn className={classes.contactIcons}/></a>
+                </Tooltip>
                 </Grid>
              <Grid item xs={1}>
-          <a href="https://github.com/RyanAsh93"><GitHub className={classes.contactIcons}/></a>
+             <Tooltip title="GitHub" placement="top">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/RyanAsh93"><GitHub className={classes.contactIcons}/></a>
+          </Tooltip>
                 </Grid>
              <Grid item xs={1}>
+             <Tooltip title="Email" placement="top">
                 <a href="mailto:ryanashworth93@yahoo.com"><Email className={classes.contactIcons}/></a>
+                </Tooltip>
+                </Grid>
+                <Grid item xs={1}>
+             <Tooltip title="Download Resume" placement="top">
+                <a href={MyPDF} download="resume.pdf"><CloudDownload className={classes.contactIcons}/></a>
+                </Tooltip>
                 </Grid>
                 </Grid>
             </div>
         )
     }
 }
-
-{/* <a className="footerEmail" href="mailto:dan@lakepointins.com"> dan@lakepointins.com</a></li> */}
 
 export default withStyles(styles)(Contact);
