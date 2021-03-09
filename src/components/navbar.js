@@ -1,10 +1,5 @@
 import React from 'react'
 import {
-// AppBar,
-// Toolbar,
-// IconButton,
-// Typography,
-// MenuIcon,
 withStyles,
 }
 from '@material-ui/core'
@@ -56,8 +51,7 @@ const styles = theme => ({
               textDecoration: 'none',
               listStyle: 'none',
               fontWeight: '700',
-              fontSize: '30px',
-              // letterSpacing: '1px',
+              fontSize: '35px',
               fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
               '&:hover': {
                   color: '#FAF0E6',
@@ -66,7 +60,7 @@ const styles = theme => ({
           logoIconStyle: {
             position: 'fixed',
             color: '#FFFAF0',
-            margin: '0 425px',
+            margin: '0 455px',
             marginTop: '5px',
             fontSize: '80px',
             cursor: 'pointer',
