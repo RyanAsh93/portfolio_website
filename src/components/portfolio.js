@@ -183,7 +183,7 @@ class Portfolio extends React.Component {
             Digital Glove Box
           </Typography>
           <Typography className={classes.cardPara} variant="body2" color="textSecondary" component="p">
-          I worked on the Car Profile page, Edit Vehicle Form, and landing page, using Ruby, Ruby on Rails, ReactJS, and Bootstrap.
+          Finale project at DevPoint Labs, using Ruby, Ruby on Rails, ReactJS, and Bootstrap.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -245,7 +245,7 @@ class Portfolio extends React.Component {
             Traise Landing Page
           </Typography>
           <Typography className={classes.cardPara} variant="body2" color="textSecondary" component="p">
-          Landing page for our SAAS software company using reactjs, material-ui, and css.
+          Currently building a landing page for our SAAS software company using reactjs, material-ui, and css.
           </Typography>
         </CardContent>
       </CardActionArea>
