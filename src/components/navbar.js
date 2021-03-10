@@ -4,7 +4,6 @@ withStyles,
 }
 from '@material-ui/core'
 import { 
-  FontDownload,
   Extension,
  } from '@material-ui/icons';
 
@@ -43,11 +42,12 @@ const styles = theme => ({
             fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
             '&:hover': {
                 color: '#FAF0E6',
+                transition: 'all 5s',
                 fontWeight: '750',
+                borderBottom: '3px solid #FFFAF0',
               },
-            // '&:active': {
-            //   borderBottom: '3px solid #FFFAF0',
-            // },
+            '&:active': {
+            },
         },
         logoStyle: {
           position: 'fixed',
@@ -55,15 +55,15 @@ const styles = theme => ({
           margin: '0 200px',
           marginTop: '25px',
           cursor: 'pointer',
-              textDecoration: 'none',
-              listStyle: 'none',
-              fontWeight: '700',
-              fontSize: '35px',
-              fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
-              '&:hover': {
+          textDecoration: 'none',
+          listStyle: 'none',
+          fontWeight: '700',
+          fontSize: '35px',
+          fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
+          '&:hover': {
                   color: '#FAF0E6',
                   fontWeight: '750',
-                },
+                }, 
           },
           logoIconStyle: {
             position: 'fixed',
