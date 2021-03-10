@@ -98,7 +98,7 @@ class Portfolio extends React.Component {
     render() {
         const { classes } = this.props
         return (
-            <div id="projects" className={classes.projectSection}>
+            <div id="portfolio" className={classes.projectSection}>
                 <h1 className={classes.projectHeader}>Portfolio</h1>
                 <MoreHoriz className={classes.projectIcon} />
                 <div>

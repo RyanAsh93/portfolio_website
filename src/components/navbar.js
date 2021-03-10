@@ -43,7 +43,11 @@ const styles = theme => ({
             fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
             '&:hover': {
                 color: '#FAF0E6',
+                fontWeight: '750',
               },
+            // '&:active': {
+            //   borderBottom: '3px solid #FFFAF0',
+            // },
         },
         logoStyle: {
           position: 'fixed',
@@ -58,6 +62,7 @@ const styles = theme => ({
               fontFamily: '"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
               '&:hover': {
                   color: '#FAF0E6',
+                  fontWeight: '750',
                 },
           },
           logoIconStyle: {
@@ -71,6 +76,7 @@ const styles = theme => ({
             listStyle: 'none',
             '&:hover': {
                 color: '#FAF0E6	',
+                fontSize: '68px',
               },
             },
 });
@@ -89,7 +95,7 @@ class Navbar extends React.Component {
           {/* <li className={classes.navlist}><a href="#advisors" className={classes.navLink}>ADVISORS</a></li> */}
           <li className={classes.navlist}><a href="#contact" className={classes.navLink}>CONTACT</a></li>
           {/* <li className='navlist'><a href="#testimonial" className="navLink">TESTIMONIALS</a></li> */}
-          <li className={classes.navlist}><a href="#projects" className={classes.navLink}>PORTFOLIO</a></li>
+          <li className={classes.navlist}><a href="#portfolio" className={classes.navLink}>PORTFOLIO</a></li>
           <li className={classes.navlist}><a href="#aboutMe" className={classes.navLink}>ABOUT ME</a></li>
           <li className={classes.navlist}><a href="#home" className={classes.navLink}>HOME</a></li>
         </ul>
