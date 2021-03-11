@@ -114,7 +114,7 @@ class Portfolio extends React.Component {
         <CardMedia
           className={classes.media}
           image={LakePoint}
-          title="Contemplative Reptile"
+          title="LakePoint Insurance"
         />
         <CardContent>
           <Typography className={classes.cardHeader} gutterBottom variant="h5" component="h2">
@@ -145,7 +145,7 @@ class Portfolio extends React.Component {
         <CardMedia
           className={classes.media}
           image={StudentList}
-          title="Contemplative Reptile"
+          title="StudentList"
         />
         <CardContent>
           <Typography className={classes.cardHeader} gutterBottom variant="h5" component="h2">
@@ -162,7 +162,7 @@ class Portfolio extends React.Component {
         size="small"
         target="_blank"
         rel="noopener noreferrer" 
-        href="https://hatchwaysassessment.mybluemix.net/"
+        href="https://studentlist.mybluemix.net/"
         startIcon={<TouchApp />}
         >
         Click Here
@@ -176,7 +176,7 @@ class Portfolio extends React.Component {
         <CardMedia
           className={classes.media}
           image={DigitalGloveBox}
-          title="Contemplative Reptile"
+          title="DigitalGloveBox"
         />
         <CardContent>
           <Typography className={classes.cardHeader} gutterBottom variant="h5" component="h2">
@@ -207,7 +207,7 @@ class Portfolio extends React.Component {
         <CardMedia
           className={classes.media}
           image={ShoppingList}
-          title="Contemplative Reptile"
+          title="ShoppingList"
         />
         <CardContent>
           <Typography className={classes.cardHeader} gutterBottom variant="h5" component="h2">
@@ -238,7 +238,7 @@ class Portfolio extends React.Component {
         <CardMedia
           className={classes.media}
           image={TraiseLanding}
-          title="Contemplative Reptile"
+          title="Traise Landing Page"
         />
         <CardContent>
           <Typography className={classes.cardHeader} gutterBottom variant="h5" component="h2">
