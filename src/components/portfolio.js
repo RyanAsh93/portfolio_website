@@ -16,7 +16,7 @@ import {
     TouchApp,
  } from '@material-ui/icons';
  import LakePoint from '../components/lakepoint.png'
- import StudentList from '../components/studentList.png'
+ import BudgetApp from '../components/budgetpic.png'
  import DigitalGloveBox from '../components/digitalGloveBox.png'
  import ShoppingList from '../components/shoppingList.png'
  import TraiseLanding from '../components/traiseLanding.png'
@@ -144,15 +144,15 @@ class Portfolio extends React.Component {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={StudentList}
-          title="StudentList"
+          image={BudgetApp}
+          title="Budget App"
         />
         <CardContent>
           <Typography className={classes.cardHeader} gutterBottom variant="h5" component="h2">
-            Student List
+            Budget App
           </Typography>
           <Typography className={classes.cardPara} variant="body2" color="textSecondary" component="p">
-          Built an app using an API to filter, and display students infomation, using Reactjs.
+          Built an app to manage, and help keep track of financials, using Reactjs.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -162,7 +162,7 @@ class Portfolio extends React.Component {
         size="small"
         target="_blank"
         rel="noopener noreferrer" 
-        href="https://studentlist.mybluemix.net/"
+        href="https://budgetapp.mybluemix.net/"
         startIcon={<TouchApp />}
         >
         Click Here
