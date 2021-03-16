@@ -2,18 +2,20 @@ import React from 'react';
 import { 
     withStyles,
     Button,
+    Grid,
  } from '@material-ui/core';
 import { 
     LaptopMac,
     GetApp,
  } from '@material-ui/icons';
 import MyPDF from './resume.pdf';
+import MyDOCX from './coverletter.docx';
 
 const styles = theme => ({
     homeSection: {
         textAlign: 'center',
         backgroundColor: '#FFFAF0',
-        height: '850px',
+        height: '925px',
         width: '100%',
         paddingTop: '0',
         display: 'block',
@@ -87,16 +89,46 @@ class Home extends React.Component {
         
         return (
             <div id="home"  className={classes.homeSection}>
+                <Grid container
+                    spacing={6}
+                    direction="row"
+                    justify="center"
+                    alignItems="center"
+                >
+                    <Grid item xs={12}>
                 <LaptopMac className={classes.homeIcon} />
+                </Grid>
+                <Grid item xs={12}>
                 <h1 className={classes.flexCaption}>Hi, I'm Ryan</h1>
+                </Grid>
+                <Grid item xs={12}>
                 <h2 className={classes.flexCaptionPara}>Full Stack Engineer - Web Developer - Web Designer</h2>
+                </Grid>
+                    </Grid>
                 <div>
+                    <Grid container
+                        // spacing={2}
+                        direction="row"
+                        justify="center"
+                        alignItems="center"
+                    >
+                <Grid item xs={2}>
                 <Button
                     variant="outlined"
                     color="#FFFAF0"
                     className={classes.buttonDownload}
                     startIcon={<GetApp />}
                     a href={MyPDF} download="resume.pdf">Download Resume</Button>
+                </Grid>
+                <Grid item xs={2}>
+                <Button
+                    variant="outlined"
+                    color="#FFFAF0"
+                    className={classes.buttonDownload}
+                    startIcon={<GetApp />}
+                    a href={MyDOCX} download="coverletter.docx">Download CL</Button>
+                </Grid>
+                </Grid>
                     </div>
             </div>
         )
